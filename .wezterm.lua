@@ -9,7 +9,7 @@ config.color_scheme = 'catppuccin-mocha'
 config.window_decorations = "NONE"
 config.enable_tab_bar = false
 config.font = wezterm.font('FiraMono Nerd Font Mono')
-config.font_size = 12.0
+config.font_size = 12.5
 config.line_height = 1.1
 config.keys = {
     {
