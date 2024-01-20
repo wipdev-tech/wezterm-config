@@ -5,11 +5,12 @@ if wezterm.config_builder then
     config = wezterm.config_builder()
 end
 
+-- config.window_decorations = "NONE"
 config.color_scheme = 'catppuccin-mocha'
-config.window_decorations = "NONE"
 config.enable_tab_bar = false
-config.font = wezterm.font('FiraMono Nerd Font Mono')
-config.font_size = 12.5
+config.font = wezterm.font('Hack Nerd Font Mono')
+config.font_size = 13
+config.cell_width = 1.0
 config.line_height = 1.1
 config.keys = {
     {
@@ -21,7 +22,7 @@ config.window_padding = {
   left = 4,
   right = 4,
   top = 4,
-  bottom = 4,
+  bottom = 0,
 }
 
 
