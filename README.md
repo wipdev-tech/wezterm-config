@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This is now outdated. The latest version is in <https://github.com/wipdev-tech/dotfiles>
+
 # `wipdev`'s WezTerm Configuration
 
 This is a relatively minimal config for the
